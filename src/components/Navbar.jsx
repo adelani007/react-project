@@ -2,14 +2,14 @@ import Logo from '../assets/pizzaLogo.png'
 import { Link } from 'react-router-dom';
 import ReorderIcon from "@mui/icons-material/Reorder";
 import "../styles/Navbar.css"
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function Navbar() {
-  const [minimize, setMinimize] = useState(false)
+  // const [minimize, setMinimize] = useState(false)
 
-  const handleClick = () => {
-    setMinimize(!minimize)
-  }
+  // const handleClick = () => {
+  //   setMinimize(!minimize)
+  
 
   return (
     <div className="navbar">
@@ -17,17 +17,17 @@ function Navbar() {
         <img src={Logo} />
       </div>
       <div className="rightside">
-        {minimize && (
+        {/* {minimize && ( */}
           <>
             <Link to="/">Home</Link>
             <Link to="/Menu">Menu</Link>
             <Link to="/About">About</Link>
             <Link to="/Contact">Contact</Link>
           </>
-        )}
-        <button onClick={handleClick} className="bg-white">
+        {/* )} */}
+        {/* <button onClick={handleClick} className="bg-white"> */}
           <ReorderIcon />
-        </button>
+        {/* </button> */}
       </div>
     </div>
   );
