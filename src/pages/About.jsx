@@ -4,12 +4,19 @@ import "../styles/About.css"
 
 function About() {
   return (
-    <div className='about'>
-      <div className='aboutTop' style={{ backgroundImage: `url(${Aboutimage})` }}></div>
-      <div className='aboutBottom'>
+    <div className="about">
+      <div
+        className="aboutTop"
+        style={{ backgroundImage: `url(${Aboutimage})` }}
+      ></div>
+      <div className="aboutBottom">
         <h1>About Us</h1>
-        <p className=''>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-           accusamus, omnis laborum maiores corporis autem?</p>
+        <p>
+          Pizza is a popular baked Italian dish consisting of a flattened,
+          usually round, bread base topped with tomato sauce, cheese, and
+          various toppings. It's a globally enjoyed food, with diverse regional
+          variations and toppings.{" "}
+        </p>
       </div>
     </div>
   );

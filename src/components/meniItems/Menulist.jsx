@@ -6,53 +6,60 @@ import Pineapple from "../../assets/pineapple.jpg";
 import Pepperoni from "../../assets/pepperoni.jpg";
 import Margherita from "../../assets/margherita.jpg";
 import Vegan from "../../assets/vegan.jpg";
+import Cheese from "../../assets/cheese piza.jpg";
+import Vic from "../../assets/vic.jpg";
 
 
 
 
 export const Menulist = [
   {
-    name: "Francis's Pizza",
+    name: "Dr. Afolabi's Pizza",
     image: Pepperoni,
-    price: 28,
+    price: 280,
   },
   {
-    name: "Bros Pizza",
+    name: "Aduke's Pizza",
     image: Margherita,
-    price: 25,
+    price: 100,
   },
   {
-    name: "Sultan's Pizza",
+    name: "Alhajas's Pizza",
     image: Pineapple,
-    price: 29,
+    price: 200,
   },
   {
-    name: "Aify's Pizza",
+    name: "Binta's Pizza",
     image: Vegan,
-    price: 31,
+    price: 131,
   },
   {
-    name: "Azeem's Pizza",
+    name: "Alafin's Pizza",
     image: PedrotechSpecial,
     price: 32,
   },
   {
-    name: "Godwin's Pizza",
-    image: Expensive,
-    price: 30,
+    name: "My wife's Pizza",
+    image: Vic,
+    price: 150,
   },
   {
-    name: "Inst Elijah's Pizza",
-    image: Pepperoni,
+    name: "Maami's Pizza",
+    image: Expensive,
+    price: 140,
+  },
+  {
+    name: "Aishat's Pizza",
+    image: Cheese,
     price: 45,
   },
   {
-    name: "Emmanuel's Pizza",
+    name: "Azeemat's Pizza",
     image: Expensive,
     price: 24,
   },
   {
-    name: "Hammed's Pizza",
+    name: "Habeeb's Pizza",
     image: Pepperoni,
     price: 35,
   },
